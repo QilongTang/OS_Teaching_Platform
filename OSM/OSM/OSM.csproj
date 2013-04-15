@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A45F5BB3-94DF-4E08-859F-444105EEAECF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OSM</RootNamespace>
+    <AssemblyName>OSM</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2">
+      <HintPath>..\..\..\..\..\桌面\毕业设计\皮肤\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="Loading, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Loading.dll</HintPath>
+    </Reference>
+    <Reference Include="SnippingTool">
+      <HintPath>..\..\..\SnippingTool\SnippingTool\SnippingTool\bin\Debug\SnippingTool.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataClass\Experiment.cs" />
+    <Compile Include="DataClass\MyMeans.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataClass\Report.cs" />
+    <Compile Include="DataClass\Student.cs" />
+    <Compile Include="DataClass\Teacher.cs" />
+    <Compile Include="DataClass\WordHandle.cs" />
+    <Compile Include="db_BSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_BSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_ChapterManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_ChapterManage.designer.cs">
+      <DependentUpon>F_ChapterManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_Doadmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_Doadmin.designer.cs">
+      <DependentUpon>F_Doadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_DoExperiment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_DoExperiment.Designer.cs">
+      <DependentUpon>F_DoExperiment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_ExperimentManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_ExperimentManage.Designer.cs">
+      <DependentUpon>F_ExperimentManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_ExperimentStats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_ExperimentStats.Designer.cs">
+      <DependentUpon>F_ExperimentStats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_InfoManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_InfoManage.designer.cs">
+      <DependentUpon>F_InfoManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_Lock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_Lock.Designer.cs">
+      <DependentUpon>F_Lock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_PicView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_PicView.Designer.cs">
+      <DependentUpon>F_PicView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_Search.Designer.cs">
+      <DependentUpon>F_Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_GiveMark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_GiveMark.Designer.cs">
+      <DependentUpon>F_GiveMark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_HaveBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_HaveBack.designer.cs">
+      <DependentUpon>F_HaveBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_InfoS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_InfoS.designer.cs">
+      <DependentUpon>F_InfoS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_InfoT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_InfoT.Designer.cs">
+      <DependentUpon>F_InfoT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_ReportManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_ReportManage.Designer.cs">
+      <DependentUpon>F_ReportManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_Login.designer.cs">
+      <DependentUpon>F_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_NewExperiment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_NewExperiment.Designer.cs">
+      <DependentUpon>F_NewExperiment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_Register.Designer.cs">
+      <DependentUpon>F_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_Parent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_Parent.Designer.cs">
+      <DependentUpon>F_Parent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_UpdatePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_UpdatePwd.designer.cs">
+      <DependentUpon>F_UpdatePwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleClass\MyModule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkinClass\MySkinClass.cs" />
+    <EmbeddedResource Include="Forms\F_ChapterManage.resx">
+      <DependentUpon>F_ChapterManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_Doadmin.resx">
+      <DependentUpon>F_Doadmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_DoExperiment.resx">
+      <DependentUpon>F_DoExperiment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_ExperimentStats.resx">
+      <DependentUpon>F_ExperimentStats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_InfoManage.resx">
+      <DependentUpon>F_InfoManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_Lock.resx">
+      <DependentUpon>F_Lock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_PicView.resx">
+      <DependentUpon>F_PicView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_Search.resx">
+      <DependentUpon>F_Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_GiveMark.resx">
+      <DependentUpon>F_GiveMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_HaveBack.resx">
+      <DependentUpon>F_HaveBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_InfoS.resx">
+      <DependentUpon>F_InfoS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_ExperimentManage.resx">
+      <DependentUpon>F_ExperimentManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_InfoT.resx">
+      <DependentUpon>F_InfoT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_ReportManage.resx">
+      <DependentUpon>F_ReportManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_Login.resx">
+      <DependentUpon>F_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_NewExperiment.resx">
+      <DependentUpon>F_NewExperiment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_Register.resx">
+      <DependentUpon>F_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_Parent.resx">
+      <DependentUpon>F_Parent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_UpdatePwd.resx">
+      <DependentUpon>F_UpdatePwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="db_BSDataSet.xsc">
+      <DependentUpon>db_BSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_BSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_BSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_BSDataSet.xss">
+      <DependentUpon>db_BSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="skin\Calmness.ssk" />
+    <EmbeddedResource Include="skin\DeepCyan.ssk" />
+    <EmbeddedResource Include="skin\DiamondBlue.ssk" />
+    <EmbeddedResource Include="skin\Eighteen.ssk" />
+    <EmbeddedResource Include="skin\Emerald.ssk" />
+    <EmbeddedResource Include="skin\GlassBrown.ssk" />
+    <EmbeddedResource Include="skin\Longhorn.ssk" />
+    <EmbeddedResource Include="skin\MacOS.ssk" />
+    <EmbeddedResource Include="skin\Midsummer.ssk" />
+    <EmbeddedResource Include="skin\MP10.ssk" />
+    <EmbeddedResource Include="skin\MSN.ssk" />
+    <EmbeddedResource Include="skin\OneBlue.ssk" />
+    <EmbeddedResource Include="skin\Page.ssk" />
+    <EmbeddedResource Include="skin\RealOne.ssk" />
+    <EmbeddedResource Include="skin\Silver.ssk" />
+    <EmbeddedResource Include="skin\SportsBlack.ssk" />
+    <EmbeddedResource Include="skin\SteelBlack.ssk" />
+    <EmbeddedResource Include="skin\vista1.ssk" />
+    <EmbeddedResource Include="skin\Vista2.ssk" />
+    <EmbeddedResource Include="skin\Warm.ssk" />
+    <EmbeddedResource Include="skin\Wave.ssk" />
+    <EmbeddedResource Include="skin\XPSilver.ssk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="数据库\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="butImage\Lock.JPG" />
+    <Content Include="butImage\VMware.jpg" />
+    <Content Include="Icon.ico" />
+    <Content Include="Image\address book_16x16.png" />
+    <Content Include="Image\app folder_16x16.png" />
+    <Content Include="Image\calculator_16x16.png" />
+    <Content Include="Image\cut_16x16.png" />
+    <Content Include="Image\directories_16x16.png" />
+    <Content Include="Image\edit file_16x16.png" />
+    <Content Include="Image\help_16x16.png" />
+    <Content Include="Image\mac users group_16x16.png" />
+    <Content Include="Image\mac user_16x16.png" />
+    <Content Include="Image\mixing_16x16.png" />
+    <Content Include="Image\notepad_16x16.png" />
+    <Content Include="Image\padlock closed_16x16.png" />
+    <Content Include="Image\paste_16x16.png" />
+    <Content Include="Image\save 2_16x16.png" />
+    <Content Include="Image\search_16x16.png" />
+    <Content Include="Image\show info_16x16.png" />
+    <Content Include="Image\small icons_16x16.png" />
+    <Content Include="Image\time_16x16.png" />
+    <Content Include="Image\tools_16x16.png" />
+    <None Include="butImage\素描Lock.jpg" />
+    <None Include="butImage\日光海岸Lock凹.jpg" />
+    <None Include="butImage\日光海岸Lock.jpg" />
+    <None Include="butImage\黑白Lock凹.jpg" />
+    <None Include="butImage\黑白Lock.jpg" />
+    <None Include="butImage\Lock凹.jpg" />
+    <None Include="butImage\素描Lock凹.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
