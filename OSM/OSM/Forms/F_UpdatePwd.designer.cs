@@ -43,39 +43,39 @@
             // 
             this.oldpwd_label.AutoSize = true;
             this.oldpwd_label.BackColor = System.Drawing.Color.Transparent;
-            this.oldpwd_label.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.oldpwd_label.Location = new System.Drawing.Point(107, 43);
+            this.oldpwd_label.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.oldpwd_label.Location = new System.Drawing.Point(107, 47);
             this.oldpwd_label.Name = "oldpwd_label";
-            this.oldpwd_label.Size = new System.Drawing.Size(53, 12);
+            this.oldpwd_label.Size = new System.Drawing.Size(59, 12);
             this.oldpwd_label.TabIndex = 0;
-            this.oldpwd_label.Text = "旧密码：";
+            this.oldpwd_label.Text = "Old Pwd：";
             // 
             // newpwd_label1
             // 
             this.newpwd_label1.AutoSize = true;
             this.newpwd_label1.BackColor = System.Drawing.Color.Transparent;
-            this.newpwd_label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.newpwd_label1.Location = new System.Drawing.Point(107, 71);
+            this.newpwd_label1.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.newpwd_label1.Location = new System.Drawing.Point(107, 77);
             this.newpwd_label1.Name = "newpwd_label1";
-            this.newpwd_label1.Size = new System.Drawing.Size(47, 12);
+            this.newpwd_label1.Size = new System.Drawing.Size(53, 12);
             this.newpwd_label1.TabIndex = 1;
-            this.newpwd_label1.Text = "新密码:";
+            this.newpwd_label1.Text = "New Pwd:";
             // 
             // newpwd_label2
             // 
             this.newpwd_label2.AutoSize = true;
             this.newpwd_label2.BackColor = System.Drawing.Color.Transparent;
-            this.newpwd_label2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.newpwd_label2.Location = new System.Drawing.Point(102, 103);
+            this.newpwd_label2.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.newpwd_label2.Location = new System.Drawing.Point(102, 112);
             this.newpwd_label2.Name = "newpwd_label2";
             this.newpwd_label2.Size = new System.Drawing.Size(65, 12);
             this.newpwd_label2.TabIndex = 2;
-            this.newpwd_label2.Text = "重新输入：";
+            this.newpwd_label2.Text = "Re-enter：";
             // 
             // oldpwd_text
             // 
-            this.oldpwd_text.Font = new System.Drawing.Font("宋体", 9F);
-            this.oldpwd_text.Location = new System.Drawing.Point(178, 36);
+            this.oldpwd_text.Font = new System.Drawing.Font("SimSun", 9F);
+            this.oldpwd_text.Location = new System.Drawing.Point(178, 39);
             this.oldpwd_text.Name = "oldpwd_text";
             this.oldpwd_text.PasswordChar = '*';
             this.oldpwd_text.Size = new System.Drawing.Size(126, 21);
@@ -83,8 +83,8 @@
             // 
             // newpwd_text1
             // 
-            this.newpwd_text1.Font = new System.Drawing.Font("宋体", 9F);
-            this.newpwd_text1.Location = new System.Drawing.Point(178, 68);
+            this.newpwd_text1.Font = new System.Drawing.Font("SimSun", 9F);
+            this.newpwd_text1.Location = new System.Drawing.Point(178, 74);
             this.newpwd_text1.Name = "newpwd_text1";
             this.newpwd_text1.PasswordChar = '*';
             this.newpwd_text1.Size = new System.Drawing.Size(126, 21);
@@ -92,8 +92,8 @@
             // 
             // newpwd_text2
             // 
-            this.newpwd_text2.Font = new System.Drawing.Font("宋体", 9F);
-            this.newpwd_text2.Location = new System.Drawing.Point(178, 100);
+            this.newpwd_text2.Font = new System.Drawing.Font("SimSun", 9F);
+            this.newpwd_text2.Location = new System.Drawing.Point(178, 108);
             this.newpwd_text2.Name = "newpwd_text2";
             this.newpwd_text2.PasswordChar = '*';
             this.newpwd_text2.Size = new System.Drawing.Size(126, 21);
@@ -101,31 +101,31 @@
             // 
             // updata_button
             // 
-            this.updata_button.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.updata_button.Location = new System.Drawing.Point(132, 141);
+            this.updata_button.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.updata_button.Location = new System.Drawing.Point(132, 153);
             this.updata_button.Name = "updata_button";
-            this.updata_button.Size = new System.Drawing.Size(80, 24);
+            this.updata_button.Size = new System.Drawing.Size(80, 26);
             this.updata_button.TabIndex = 6;
-            this.updata_button.Text = "确认修改";
+            this.updata_button.Text = "Confirm";
             this.updata_button.UseVisualStyleBackColor = true;
             this.updata_button.Click += new System.EventHandler(this.updata_button_Click);
             // 
             // butCancel
             // 
-            this.butCancel.Location = new System.Drawing.Point(243, 142);
+            this.butCancel.Location = new System.Drawing.Point(243, 154);
             this.butCancel.Name = "butCancel";
-            this.butCancel.Size = new System.Drawing.Size(75, 23);
+            this.butCancel.Size = new System.Drawing.Size(75, 25);
             this.butCancel.TabIndex = 7;
-            this.butCancel.Text = "取消";
+            this.butCancel.Text = "Cancel";
             this.butCancel.UseVisualStyleBackColor = true;
             this.butCancel.Click += new System.EventHandler(this.butCancel_Click);
             // 
             // F_UpdatePwd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(454, 268);
+            this.ClientSize = new System.Drawing.Size(454, 290);
             this.ControlBox = false;
             this.Controls.Add(this.butCancel);
             this.Controls.Add(this.updata_button);

@@ -144,5 +144,10 @@ namespace OSM.Forms
             }
             this.DialogResult = DialogResult.OK;
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

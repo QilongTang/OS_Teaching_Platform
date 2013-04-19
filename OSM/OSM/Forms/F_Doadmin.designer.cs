@@ -34,19 +34,19 @@
             // 
             // but_OK
             // 
-            this.but_OK.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.but_OK.Location = new System.Drawing.Point(128, 59);
+            this.but_OK.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.but_OK.Location = new System.Drawing.Point(128, 64);
             this.but_OK.Name = "but_OK";
-            this.but_OK.Size = new System.Drawing.Size(75, 23);
+            this.but_OK.Size = new System.Drawing.Size(75, 25);
             this.but_OK.TabIndex = 0;
-            this.but_OK.Text = "开启";
+            this.but_OK.Text = "Activate";
             this.but_OK.UseVisualStyleBackColor = true;
             this.but_OK.Click += new System.EventHandler(this.do_button_Click);
             // 
             // admin_text
             // 
-            this.admin_text.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.admin_text.Location = new System.Drawing.Point(73, 21);
+            this.admin_text.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.admin_text.Location = new System.Drawing.Point(73, 23);
             this.admin_text.Name = "admin_text";
             this.admin_text.PasswordChar = '*';
             this.admin_text.Size = new System.Drawing.Size(193, 23);
@@ -55,16 +55,16 @@
             // F_Doadmin
             // 
             this.AcceptButton = this.but_OK;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(338, 100);
+            this.ClientSize = new System.Drawing.Size(338, 108);
             this.Controls.Add(this.admin_text);
             this.Controls.Add(this.but_OK);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_Doadmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "开启管理员权限";
+            this.Text = "Activate Administrator";
             this.Load += new System.EventHandler(this.doadmin_form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

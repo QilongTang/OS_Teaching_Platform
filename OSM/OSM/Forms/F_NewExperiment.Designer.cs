@@ -77,9 +77,9 @@
             // 
             // txtTitle
             // 
-            this.txtTitle.Location = new System.Drawing.Point(31, 20);
+            this.txtTitle.Location = new System.Drawing.Point(31, 22);
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(444, 21);
+            this.txtTitle.Size = new System.Drawing.Size(419, 20);
             this.txtTitle.TabIndex = 1;
             this.txtTitle.TextChanged += new System.EventHandler(this.txtTitle_TextChanged);
             // 
@@ -89,27 +89,27 @@
             this.groupBox1.Controls.Add(this.butGetChapterNum);
             this.groupBox1.Controls.Add(this.txtExperimentNum);
             this.groupBox1.Controls.Add(this.txtTitle);
-            this.groupBox1.Location = new System.Drawing.Point(44, 88);
+            this.groupBox1.Location = new System.Drawing.Point(44, 95);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(633, 46);
+            this.groupBox1.Size = new System.Drawing.Size(633, 50);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "实验题目:";
+            this.groupBox1.Text = "ExperimentName:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(481, 23);
+            this.label5.Location = new System.Drawing.Point(456, 25);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 12);
+            this.label5.Size = new System.Drawing.Size(84, 13);
             this.label5.TabIndex = 21;
-            this.label5.Text = "实验编号:";
+            this.label5.Text = "ExperimentNum:";
             // 
             // butGetChapterNum
             // 
-            this.butGetChapterNum.Location = new System.Drawing.Point(581, 20);
+            this.butGetChapterNum.Location = new System.Drawing.Point(582, 19);
             this.butGetChapterNum.Name = "butGetChapterNum";
-            this.butGetChapterNum.Size = new System.Drawing.Size(36, 23);
+            this.butGetChapterNum.Size = new System.Drawing.Size(36, 25);
             this.butGetChapterNum.TabIndex = 23;
             this.butGetChapterNum.Text = "Get";
             this.butGetChapterNum.UseVisualStyleBackColor = true;
@@ -117,123 +117,123 @@
             // 
             // txtExperimentNum
             // 
-            this.txtExperimentNum.Location = new System.Drawing.Point(545, 20);
+            this.txtExperimentNum.Location = new System.Drawing.Point(545, 22);
             this.txtExperimentNum.Name = "txtExperimentNum";
-            this.txtExperimentNum.Size = new System.Drawing.Size(23, 21);
+            this.txtExperimentNum.Size = new System.Drawing.Size(23, 20);
             this.txtExperimentNum.TabIndex = 22;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txtPurpose);
-            this.groupBox2.Location = new System.Drawing.Point(44, 140);
+            this.groupBox2.Location = new System.Drawing.Point(44, 152);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(633, 61);
+            this.groupBox2.Size = new System.Drawing.Size(633, 66);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "实验目的:";
+            this.groupBox2.Text = "Experiment Purpose:";
             // 
             // txtPurpose
             // 
-            this.txtPurpose.Location = new System.Drawing.Point(27, 20);
+            this.txtPurpose.Location = new System.Drawing.Point(27, 22);
             this.txtPurpose.Multiline = true;
             this.txtPurpose.Name = "txtPurpose";
             this.txtPurpose.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtPurpose.Size = new System.Drawing.Size(590, 35);
+            this.txtPurpose.Size = new System.Drawing.Size(590, 38);
             this.txtPurpose.TabIndex = 0;
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.txtDetail);
-            this.groupBox3.Location = new System.Drawing.Point(44, 207);
+            this.groupBox3.Location = new System.Drawing.Point(44, 224);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(633, 103);
+            this.groupBox3.Size = new System.Drawing.Size(633, 112);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "实验内容:";
+            this.groupBox3.Text = "Experiment Content:";
             // 
             // txtDetail
             // 
-            this.txtDetail.Location = new System.Drawing.Point(27, 20);
+            this.txtDetail.Location = new System.Drawing.Point(27, 22);
             this.txtDetail.Multiline = true;
             this.txtDetail.Name = "txtDetail";
             this.txtDetail.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDetail.Size = new System.Drawing.Size(591, 76);
+            this.txtDetail.Size = new System.Drawing.Size(591, 82);
             this.txtDetail.TabIndex = 0;
             // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.txtPreparation);
-            this.groupBox4.Location = new System.Drawing.Point(44, 316);
+            this.groupBox4.Location = new System.Drawing.Point(44, 342);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(633, 91);
+            this.groupBox4.Size = new System.Drawing.Size(633, 99);
             this.groupBox4.TabIndex = 5;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "准备知识:";
+            this.groupBox4.Text = "Preparation knowledge:";
             // 
             // txtPreparation
             // 
-            this.txtPreparation.Location = new System.Drawing.Point(28, 20);
+            this.txtPreparation.Location = new System.Drawing.Point(28, 22);
             this.txtPreparation.Multiline = true;
             this.txtPreparation.Name = "txtPreparation";
             this.txtPreparation.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtPreparation.Size = new System.Drawing.Size(590, 65);
+            this.txtPreparation.Size = new System.Drawing.Size(590, 70);
             this.txtPreparation.TabIndex = 0;
             // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.txtGuidance);
-            this.groupBox5.Location = new System.Drawing.Point(44, 413);
+            this.groupBox5.Location = new System.Drawing.Point(44, 447);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(633, 138);
+            this.groupBox5.Size = new System.Drawing.Size(633, 150);
             this.groupBox5.TabIndex = 6;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "实验指导";
+            this.groupBox5.Text = "Experiment Guidance";
             // 
             // txtGuidance
             // 
-            this.txtGuidance.Location = new System.Drawing.Point(27, 20);
+            this.txtGuidance.Location = new System.Drawing.Point(27, 22);
             this.txtGuidance.Multiline = true;
             this.txtGuidance.Name = "txtGuidance";
             this.txtGuidance.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtGuidance.Size = new System.Drawing.Size(590, 112);
+            this.txtGuidance.Size = new System.Drawing.Size(590, 121);
             this.txtGuidance.TabIndex = 0;
             // 
             // butAccept
             // 
-            this.butAccept.Location = new System.Drawing.Point(84, 13);
+            this.butAccept.Location = new System.Drawing.Point(84, 14);
             this.butAccept.Name = "butAccept";
-            this.butAccept.Size = new System.Drawing.Size(75, 23);
+            this.butAccept.Size = new System.Drawing.Size(75, 25);
             this.butAccept.TabIndex = 7;
-            this.butAccept.Text = "提交";
+            this.butAccept.Text = "Submit";
             this.butAccept.UseVisualStyleBackColor = true;
             this.butAccept.Click += new System.EventHandler(this.butAccept_Click);
             // 
             // butClear
             // 
-            this.butClear.Location = new System.Drawing.Point(219, 13);
+            this.butClear.Location = new System.Drawing.Point(219, 14);
             this.butClear.Name = "butClear";
-            this.butClear.Size = new System.Drawing.Size(75, 23);
+            this.butClear.Size = new System.Drawing.Size(75, 25);
             this.butClear.TabIndex = 8;
-            this.butClear.Text = "清空";
+            this.butClear.Text = "Clear";
             this.butClear.UseVisualStyleBackColor = true;
             this.butClear.Click += new System.EventHandler(this.butClear_Click);
             // 
             // butClose
             // 
             this.butClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.butClose.Location = new System.Drawing.Point(347, 13);
+            this.butClose.Location = new System.Drawing.Point(347, 14);
             this.butClose.Name = "butClose";
-            this.butClose.Size = new System.Drawing.Size(75, 23);
+            this.butClose.Size = new System.Drawing.Size(75, 25);
             this.butClose.TabIndex = 9;
-            this.butClose.Text = "关闭";
+            this.butClose.Text = "Close";
             this.butClose.UseVisualStyleBackColor = true;
             this.butClose.Click += new System.EventHandler(this.butClose_Click);
             // 
             // butOpenFile
             // 
-            this.butOpenFile.Location = new System.Drawing.Point(542, 13);
+            this.butOpenFile.Location = new System.Drawing.Point(542, 14);
             this.butOpenFile.Name = "butOpenFile";
-            this.butOpenFile.Size = new System.Drawing.Size(75, 23);
+            this.butOpenFile.Size = new System.Drawing.Size(75, 25);
             this.butOpenFile.TabIndex = 10;
             this.butOpenFile.Text = "绑定课件";
             this.butOpenFile.UseVisualStyleBackColor = true;
@@ -246,31 +246,31 @@
             this.groupBox6.Controls.Add(this.butClose);
             this.groupBox6.Controls.Add(this.butClear);
             this.groupBox6.Controls.Add(this.butAccept);
-            this.groupBox6.Location = new System.Drawing.Point(44, 557);
+            this.groupBox6.Location = new System.Drawing.Point(44, 603);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(633, 42);
+            this.groupBox6.Size = new System.Drawing.Size(633, 46);
             this.groupBox6.TabIndex = 11;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "操作";
+            this.groupBox6.Text = "Operations";
             // 
             // butDoExperiment
             // 
-            this.butDoExperiment.Location = new System.Drawing.Point(475, 13);
+            this.butDoExperiment.Location = new System.Drawing.Point(475, 14);
             this.butDoExperiment.Name = "butDoExperiment";
-            this.butDoExperiment.Size = new System.Drawing.Size(75, 23);
+            this.butDoExperiment.Size = new System.Drawing.Size(75, 25);
             this.butDoExperiment.TabIndex = 11;
-            this.butDoExperiment.Text = "开始做实验";
+            this.butDoExperiment.Text = "StartToDo";
             this.butDoExperiment.UseVisualStyleBackColor = true;
             this.butDoExperiment.Click += new System.EventHandler(this.butDoExperiment_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 28);
+            this.label1.Location = new System.Drawing.Point(16, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 12);
+            this.label1.Size = new System.Drawing.Size(69, 13);
             this.label1.TabIndex = 12;
-            this.label1.Text = "章节号:";
+            this.label1.Text = "ChapterNum:";
             // 
             // groupBox7
             // 
@@ -282,25 +282,25 @@
             this.groupBox7.Controls.Add(this.label3);
             this.groupBox7.Controls.Add(this.label2);
             this.groupBox7.Controls.Add(this.label1);
-            this.groupBox7.Location = new System.Drawing.Point(44, 26);
+            this.groupBox7.Location = new System.Drawing.Point(44, 28);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(633, 56);
+            this.groupBox7.Size = new System.Drawing.Size(633, 61);
             this.groupBox7.TabIndex = 13;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "基本信息";
+            this.groupBox7.Text = "Basic Info";
             // 
             // txtTeacherName
             // 
-            this.txtTeacherName.Location = new System.Drawing.Point(545, 24);
+            this.txtTeacherName.Location = new System.Drawing.Point(575, 26);
             this.txtTeacherName.Name = "txtTeacherName";
-            this.txtTeacherName.Size = new System.Drawing.Size(73, 21);
+            this.txtTeacherName.Size = new System.Drawing.Size(52, 20);
             this.txtTeacherName.TabIndex = 22;
             // 
             // txtTeacherNum
             // 
-            this.txtTeacherNum.Location = new System.Drawing.Point(442, 24);
+            this.txtTeacherNum.Location = new System.Drawing.Point(449, 26);
             this.txtTeacherNum.Name = "txtTeacherNum";
-            this.txtTeacherNum.Size = new System.Drawing.Size(33, 21);
+            this.txtTeacherNum.Size = new System.Drawing.Size(37, 20);
             this.txtTeacherNum.TabIndex = 21;
             // 
             // cb_ChapterNum
@@ -308,9 +308,9 @@
             this.cb_ChapterNum.DataSource = this.tbChapterBindingSource;
             this.cb_ChapterNum.DisplayMember = "IDC";
             this.cb_ChapterNum.FormattingEnabled = true;
-            this.cb_ChapterNum.Location = new System.Drawing.Point(59, 25);
+            this.cb_ChapterNum.Location = new System.Drawing.Point(84, 26);
             this.cb_ChapterNum.Name = "cb_ChapterNum";
-            this.cb_ChapterNum.Size = new System.Drawing.Size(47, 20);
+            this.cb_ChapterNum.Size = new System.Drawing.Size(47, 21);
             this.cb_ChapterNum.TabIndex = 14;
             this.cb_ChapterNum.ValueMember = "IDC";
             // 
@@ -329,38 +329,38 @@
             this.cb_ChapterName.DataSource = this.tbChapterBindingSource;
             this.cb_ChapterName.DisplayMember = "name";
             this.cb_ChapterName.FormattingEnabled = true;
-            this.cb_ChapterName.Location = new System.Drawing.Point(155, 25);
+            this.cb_ChapterName.Location = new System.Drawing.Point(208, 26);
             this.cb_ChapterName.Name = "cb_ChapterName";
-            this.cb_ChapterName.Size = new System.Drawing.Size(223, 20);
+            this.cb_ChapterName.Size = new System.Drawing.Size(164, 21);
             this.cb_ChapterName.TabIndex = 20;
             this.cb_ChapterName.ValueMember = "IDC";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(492, 28);
+            this.label4.Location = new System.Drawing.Point(492, 30);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 12);
+            this.label4.Size = new System.Drawing.Size(78, 13);
             this.label4.TabIndex = 16;
-            this.label4.Text = "教师名:";
+            this.label4.Text = "TeacherName:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(112, 28);
+            this.label3.Location = new System.Drawing.Point(137, 33);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 12);
+            this.label3.Size = new System.Drawing.Size(75, 13);
             this.label3.TabIndex = 15;
-            this.label3.Text = "章节名:";
+            this.label3.Text = "ChapterName:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(389, 28);
+            this.label2.Location = new System.Drawing.Point(378, 30);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 12);
+            this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 13;
-            this.label2.Text = "教师号:";
+            this.label2.Text = "TeacherNum:";
             // 
             // dbBSDataSetBindingSource
             // 
@@ -378,11 +378,11 @@
             // 
             // F_NewExperiment
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.CancelButton = this.butClose;
-            this.ClientSize = new System.Drawing.Size(752, 666);
+            this.ClientSize = new System.Drawing.Size(752, 722);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
@@ -393,7 +393,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "F_NewExperiment";
-            this.Text = "新建实验";
+            this.Text = "CreateExperiment";
             this.Load += new System.EventHandler(this.F_NewExperiment_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

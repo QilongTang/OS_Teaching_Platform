@@ -48,12 +48,12 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.dataGridView1);
-            this.groupBox3.Location = new System.Drawing.Point(261, 12);
+            this.groupBox3.Location = new System.Drawing.Point(261, 13);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(351, 293);
+            this.groupBox3.Size = new System.Drawing.Size(351, 317);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "统计";
+            this.groupBox3.Text = "Statistics";
             // 
             // dataGridView1
             // 
@@ -63,43 +63,42 @@
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.ColumnHeadersVisible = false;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 20);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 22);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(339, 268);
+            this.dataGridView1.Size = new System.Drawing.Size(339, 290);
             this.dataGridView1.TabIndex = 1;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.listBox1);
-            this.groupBox2.Location = new System.Drawing.Point(49, 12);
+            this.groupBox2.Location = new System.Drawing.Point(49, 13);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(206, 293);
+            this.groupBox2.Size = new System.Drawing.Size(206, 317);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "实验报告分类";
+            this.groupBox2.Text = "Reports";
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(8, 20);
+            this.listBox1.Location = new System.Drawing.Point(8, 22);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(192, 268);
+            this.listBox1.Size = new System.Drawing.Size(192, 290);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dataGridView2);
-            this.groupBox1.Location = new System.Drawing.Point(261, 311);
+            this.groupBox1.Location = new System.Drawing.Point(261, 337);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(351, 293);
+            this.groupBox1.Size = new System.Drawing.Size(351, 317);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "统计";
+            this.groupBox1.Text = "Statistics";
             // 
             // dataGridView2
             // 
@@ -109,49 +108,48 @@
             this.dataGridView2.AllowUserToResizeRows = false;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.ColumnHeadersVisible = false;
-            this.dataGridView2.Location = new System.Drawing.Point(6, 19);
+            this.dataGridView2.Location = new System.Drawing.Point(6, 21);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(339, 269);
+            this.dataGridView2.Size = new System.Drawing.Size(339, 291);
             this.dataGridView2.TabIndex = 1;
             // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.listBox2);
-            this.groupBox4.Location = new System.Drawing.Point(49, 311);
+            this.groupBox4.Location = new System.Drawing.Point(49, 337);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(206, 293);
+            this.groupBox4.Size = new System.Drawing.Size(206, 317);
             this.groupBox4.TabIndex = 8;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "实验分类";
+            this.groupBox4.Text = "Experiments";
             // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 12;
-            this.listBox2.Location = new System.Drawing.Point(8, 20);
+            this.listBox2.Location = new System.Drawing.Point(8, 22);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(192, 268);
+            this.listBox2.Size = new System.Drawing.Size(192, 290);
             this.listBox2.TabIndex = 0;
             this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
             // butClose
             // 
-            this.butClose.Location = new System.Drawing.Point(641, 299);
+            this.butClose.Location = new System.Drawing.Point(641, 324);
             this.butClose.Name = "butClose";
-            this.butClose.Size = new System.Drawing.Size(75, 23);
+            this.butClose.Size = new System.Drawing.Size(75, 25);
             this.butClose.TabIndex = 10;
-            this.butClose.Text = "关闭";
+            this.butClose.Text = "Close";
             this.butClose.UseVisualStyleBackColor = true;
             this.butClose.Click += new System.EventHandler(this.butClose_Click);
             // 
             // F_ExperimentStats
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(752, 666);
+            this.ClientSize = new System.Drawing.Size(752, 722);
             this.Controls.Add(this.butClose);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox4);

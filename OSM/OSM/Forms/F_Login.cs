@@ -34,18 +34,15 @@ namespace OSM
                     if (ifcom)
                     {
                         string today = DateTime.Now.ToString("yyyy年MM月");//获取当天时间
-                        if (today== "2012年05月"|| today == "2012年06月" || today == "2012年07月")
-                        {
-                            DataClass.MyMeans.Login_Name = txtUserName.Text.Trim();//将用户名记录到公共变量中
-                            DataClass.MyMeans.Login_ID = temDR.GetValue(temDR.GetOrdinal("popenum")).ToString();//获取权限下的编号
-                            DataClass.MyMeans.Login_Time = DateTime.Now.ToString();//获取当前登录时间
-                            DataClass.MyMeans.User_Pope = temDR.GetString(temDR.GetOrdinal("pope"));//获取当前登录者权限
-                            DataClass.MyMeans.User_Pwd = temDR.GetString(temDR.GetOrdinal("password"));//获取当前登录者密码
-                            DataClass.MyMeans.User_ID = Convert.ToInt32(temDR.GetValue(temDR.GetOrdinal("IDU")));//获取当前登录者ID
-                            this.Hide();//关闭当前窗口
-                            F_Parent Main = new F_Parent();//建立新窗口
-                            Main.Show();//显示新窗口
-                        }
+                        DataClass.MyMeans.Login_Name = txtUserName.Text.Trim();//将用户名记录到公共变量中
+                        DataClass.MyMeans.Login_ID = temDR.GetValue(temDR.GetOrdinal("popenum")).ToString();//获取权限下的编号
+                        DataClass.MyMeans.Login_Time = DateTime.Now.ToString();//获取当前登录时间
+                        DataClass.MyMeans.User_Pope = temDR.GetString(temDR.GetOrdinal("pope"));//获取当前登录者权限
+                        DataClass.MyMeans.User_Pwd = temDR.GetString(temDR.GetOrdinal("password"));//获取当前登录者密码
+                        DataClass.MyMeans.User_ID = Convert.ToInt32(temDR.GetValue(temDR.GetOrdinal("IDU")));//获取当前登录者ID
+                        this.Hide();//关闭当前窗口
+                        F_Parent Main = new F_Parent();//建立新窗口
+                        Main.Show();//显示新窗口
                     }
                     else
                     {

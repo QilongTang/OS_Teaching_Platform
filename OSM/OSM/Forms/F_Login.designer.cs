@@ -41,21 +41,21 @@
             // 
             // butLogin
             // 
-            this.butLogin.Location = new System.Drawing.Point(80, 152);
+            this.butLogin.Location = new System.Drawing.Point(80, 165);
             this.butLogin.Name = "butLogin";
-            this.butLogin.Size = new System.Drawing.Size(75, 23);
+            this.butLogin.Size = new System.Drawing.Size(75, 25);
             this.butLogin.TabIndex = 0;
-            this.butLogin.Text = "登录";
+            this.butLogin.Text = "Login";
             this.butLogin.UseVisualStyleBackColor = true;
             this.butLogin.Click += new System.EventHandler(this.butLogin_Click);
             // 
             // butRegister
             // 
-            this.butRegister.Location = new System.Drawing.Point(174, 152);
+            this.butRegister.Location = new System.Drawing.Point(174, 165);
             this.butRegister.Name = "butRegister";
-            this.butRegister.Size = new System.Drawing.Size(75, 23);
+            this.butRegister.Size = new System.Drawing.Size(75, 25);
             this.butRegister.TabIndex = 1;
-            this.butRegister.Text = "注册";
+            this.butRegister.Text = "Regiser";
             this.butRegister.UseVisualStyleBackColor = true;
             this.butRegister.Click += new System.EventHandler(this.butRegister_Click);
             // 
@@ -63,45 +63,45 @@
             // 
             this.labelName.AutoSize = true;
             this.labelName.BackColor = System.Drawing.Color.Transparent;
-            this.labelName.Location = new System.Drawing.Point(68, 64);
+            this.labelName.Location = new System.Drawing.Point(55, 69);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(47, 12);
+            this.labelName.Size = new System.Drawing.Size(60, 13);
             this.labelName.TabIndex = 2;
-            this.labelName.Text = "用户名:";
+            this.labelName.Text = "UserName:";
             // 
             // labelPwd
             // 
             this.labelPwd.AutoSize = true;
             this.labelPwd.BackColor = System.Drawing.Color.Transparent;
-            this.labelPwd.Location = new System.Drawing.Point(68, 104);
+            this.labelPwd.Location = new System.Drawing.Point(55, 112);
             this.labelPwd.Name = "labelPwd";
-            this.labelPwd.Size = new System.Drawing.Size(35, 12);
+            this.labelPwd.Size = new System.Drawing.Size(56, 13);
             this.labelPwd.TabIndex = 3;
-            this.labelPwd.Text = "密码:";
+            this.labelPwd.Text = "Password:";
             // 
             // butClose
             // 
             this.butClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.butClose.Location = new System.Drawing.Point(269, 152);
+            this.butClose.Location = new System.Drawing.Point(269, 165);
             this.butClose.Name = "butClose";
-            this.butClose.Size = new System.Drawing.Size(75, 23);
+            this.butClose.Size = new System.Drawing.Size(75, 25);
             this.butClose.TabIndex = 4;
-            this.butClose.Text = "取消";
+            this.butClose.Text = "Cancel";
             this.butClose.UseVisualStyleBackColor = true;
             this.butClose.Click += new System.EventHandler(this.butClose_Click);
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(121, 61);
+            this.txtUserName.Location = new System.Drawing.Point(121, 66);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(172, 21);
+            this.txtUserName.Size = new System.Drawing.Size(172, 20);
             this.txtUserName.TabIndex = 5;
             // 
             // txtUserPwd
             // 
-            this.txtUserPwd.Location = new System.Drawing.Point(121, 101);
+            this.txtUserPwd.Location = new System.Drawing.Point(121, 109);
             this.txtUserPwd.Name = "txtUserPwd";
-            this.txtUserPwd.Size = new System.Drawing.Size(172, 21);
+            this.txtUserPwd.Size = new System.Drawing.Size(172, 20);
             this.txtUserPwd.TabIndex = 6;
             this.txtUserPwd.UseSystemPasswordChar = true;
             // 
@@ -109,20 +109,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(133, 29);
+            this.label1.Location = new System.Drawing.Point(118, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 12);
+            this.label1.Size = new System.Drawing.Size(179, 13);
             this.label1.TabIndex = 7;
-            this.label1.Text = "操作系统实验教学平台V1.0";
+            this.label1.Text = "Operating System Teaching Platform";
             // 
             // F_Login
             // 
             this.AcceptButton = this.butLogin;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.CancelButton = this.butClose;
-            this.ClientSize = new System.Drawing.Size(453, 270);
+            this.ClientSize = new System.Drawing.Size(453, 293);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtUserPwd);
@@ -136,7 +136,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_Login";
-            this.Text = "登录";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.F_Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
