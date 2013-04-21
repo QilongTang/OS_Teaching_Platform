@@ -230,10 +230,5 @@ namespace OSM.Forms
             this.Close();
         }
 
-        private void pic_pictureBox_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }
